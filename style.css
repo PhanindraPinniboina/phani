@@ -100,6 +100,11 @@ footer{
 li a {
     display: block;
 }
+
+  .img{
+  max-width: 10px;
+  max-height: 10px;
+}
  
 #boxes .box{
         float: none;
