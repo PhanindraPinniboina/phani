@@ -19,11 +19,14 @@ header{
   align-content: center;
 }
 
-header .logo{
-    text-align: center;
-    font-family: 'Cinzel', serif;
-    font-family: 'Russo One', sans-serif;
+header .logo .img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    height: 100px;
 }
+
 
 main{
     text-align: center;
@@ -50,11 +53,6 @@ main .img-plan{
   margin-top:20px;
 }
 
-#textMain{
-  text-align: justify;
-  text-justify: inter-word;
-}
-
 #boxes .box{
   float:left;
   text-align: center;
@@ -69,6 +67,11 @@ main .img-plan{
     border-radius: 10px;
 }
 
+#textMain{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 #tab{
     background: #fff;
     margin: auto;
@@ -77,7 +80,7 @@ main .img-plan{
 
 footer{
     padding: 2px;
-    background-color: #3d8171;
+    background-color:#3d8171;
     text-align: center;
     margin: 10px;
     color: #fff;
