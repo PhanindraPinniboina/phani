@@ -120,4 +120,7 @@ li a {
         text-align:center;
         width:100%;
   }
+#clock{
+    max-width: 100px;
+  }
 }
